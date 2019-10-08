@@ -13,8 +13,11 @@
     </head>
     <body>
         <h1>CPRG-352 Practice Exam 1</h1>
+        <h2>${phrase}</h2>
         <form action="part2" method="post">
-            
+            Name: <input type="text" name="name"><br>
+            Age: <input type="text" name="age"><br>
+            <input type="submit" name="addPerson" value="Add">
         </form>
         <br>
         Average age is: ${average}
